@@ -22,19 +22,13 @@ body {
     height: 100vh;
 }
 
-.footer {
-    display: inline-block;
-    display: -moz-inline-box;
-    *display: inline; /* For IE7 */
-    zoom: 1; /* Trigger hasLayout */
-    margin-left: 2%;
-    width: 32%;
-    text-align: center;
+.bottom {
     background-color: var(--text);
     color:var(--bg);
     font-size: 20px;
     font-weight: 700;
     font-style: italic;
+    width: 100%;
     line-height: 20px;
     display: flex;
     flex-wrap: wrap;
