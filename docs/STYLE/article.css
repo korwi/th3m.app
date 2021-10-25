@@ -1,0 +1,511 @@
+@import url('constants.css');
+
+* {
+    font-family: var(--arial);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--arial);
+    background: var(--w10);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content: center;
+    align-items: center;
+    min-width: 740px;
+}
+
+.header {
+    background-color: var(--w10);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 20%;
+}
+
+hr {
+    height: 2px;
+    background-color: var(--w1); 
+}
+
+header h1 {
+    color: var(--w1);
+    padding: 10px;
+    font-size: 70px;
+    font-family: var(--lora);
+}
+
+.index {
+    float: left;
+    width: 20%;
+    color: var(--w2);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.index .box1 {
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.index .box2 {
+    margin-left: 16px;
+    padding: 5px;
+    
+}
+
+.index .box3 {
+    margin-left: 32px;
+    padding: 0px;
+}
+
+.index .box2 h1:hover {
+    color: var(--mpurple);
+}
+
+.index .box3 h1:hover {
+    color: var(--mpurple);
+}
+
+.index .box1 h1 {
+    color: var(--w1);
+    padding: 0px;
+    font-size: 25px;
+    font-family: var(--lora);
+    color: var(--w2);
+    font-weight: bold;
+
+}
+
+.index .box1 h1:hover {
+    color: var(--mpurple);
+}
+
+
+.index .box2 h1 {
+    color: var(--w1);
+    padding: 0px;
+    font-size: 20px;
+    font-family: var(--lora);
+    color: var(--w2);
+    font-weight: bold;
+    
+}
+
+.index .box3 h1 {
+    color: var(--w1);
+    padding: 0px;
+    font-size: 15px;
+    font-family: var(--lora);
+    color: var(--w3);
+    font-weight: bold;
+    
+}
+
+.index a {
+    text-decoration: none;
+}
+
+.index h1 {
+    color: var(--w1);
+    padding: 10px;
+    font-size: 20px;
+    font-family: var(--lora);
+    color: var(--w4);
+    font-weight: bold;
+
+}
+
+
+.content {
+    float: left;
+    width: 80%;
+    background-color: var(--w10);
+    padding-left: 10px;
+}
+  
+  /* Clear floats after the columns */
+
+
+.main {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.main:after {
+    content: "";
+    display: table;
+    border: 0px;
+}
+
+.content .move {
+    padding: 20px;
+}
+
+.content .move .last {
+    font-size: 50px;
+    font-family: var(--lora);
+    color: var(--w2);
+    text-decoration: none;
+}
+
+.content .move .next {
+    font-size: 50px;
+    font-family: var(--lora);
+    float:right;
+    color: var(--w2);
+    text-decoration: none;
+}
+
+.content .hrbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .hrbox hr {
+    width: 65%;
+}
+
+.content .contenttitle {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.content h1 {
+    font-family: var(--lora);
+    font-size: 70px;
+    padding: 10px;
+    color: var(--w2);
+}
+
+.content h2 {
+    font-family: var(--arial);
+    font-size: 50px;
+    padding: 10px;
+    color: var(--w2);
+    
+}
+
+.content h3 {
+    font-family: var(--arial);
+    font-size: 35px;
+    color: var(--w2);
+    
+}
+
+.content h4 {
+    font-family: var(--arial);
+    font-size: 30px;
+    color: var(--w2);
+    font-style: italic;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.content p {
+    font-family: var(--arial);
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.content a {
+    font-family: var(--lora);
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--sblue);
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content li {
+    font-family: var(--arial);
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.title {
+    font-family: var(--lora);
+    font-size: 20px;
+    color: var(--w2);
+    
+}
+
+.content p strong {
+    font-family: var(--arial);
+    color: var(--w2);
+    
+}
+
+.content a strong {
+    font-family: var(--arial);
+    color: var(--astrong);
+    
+}
+
+.content li strong {
+    font-family: var(--arial);
+    color: var(--w2);
+    
+}
+
+
+.content .block {
+    font-family: var(--arial);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: var(--b1) 0px 0px 0px 1px, var(--b2) 0px 0px 0px 1px inset;
+
+}
+
+.content ul {
+    margin-left: 30px;
+}
+
+.content ol {
+    margin-left: 30px;
+}
+
+
+
+.bottom {
+    font-family: var(--arial);
+    background-color: var(--w10);
+    color:var(--w10);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    width: 100%;
+    line-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bottom .innerbottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom .innerbottom a {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--w1);
+}
+
+.bottom .innerbottom p {
+    text-transform: lowercase;
+    color: var(--w1);
+}
+
+.regards a {
+    font-size: 10px;
+    color: var(--morange);
+    text-decoration: none;
+}
+
+
+.attri-ref {
+    float: left;
+    margin-left: 14%;
+    margin-right: 14%;
+    width: 100%;
+}
+
+.attri-ref .attributions {
+    font-family: var(--lora);
+    font-size: 120px;
+    color: var(--w2);
+}
+
+.attri-ref .references {
+    font-family: var(--lora);
+    font-size: 120px;
+    color: var(--w2);
+}
+
+.attri-ref ul {
+    padding: 20px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*GLOBAL STYLING*/
+/* for example, to make any text red, that may be titles, paragraphs, etc. */
+
+s {
+    text-transform: capitalize;
+}
+
+.indent1 {
+    padding-left: 6px;
+
+}
+
+.indent2 {
+    padding-left: 12px;
+    
+}
+
+.indent3 {
+    padding-left: 15px;
+    
+}
+
+.indent4 {
+    padding-left: 20px;
+    
+}
+
+.indent5 {
+    padding-left: 30px;
+    
+}
+
+.w1 {
+    color: #1D1B0C;
+} 
+.w2 {
+    color: #373528; 
+} 
+.w3 {
+    color: #504E43;
+} 
+.w4 {
+    color: #69685F;
+} 
+.w5 {
+    color: #82817A;
+} 
+.w6 {
+    color: #9C9B96;
+}
+.w7 {
+    color: #B5B4B1;
+} 
+.w8 {
+    color: #CECECC;
+} 
+.w9 {
+    color: #DBDBDA;
+} 
+.w10 {
+    color: #E7E7E7;
+} 
+.lbrown {
+    color: #79695f;
+} 
+.lred {
+    color: #F8C9CA;
+} 
+.lorange {
+    color: #F8DDC9;
+} 
+.lyellow {
+    color: #F8F2C9;
+} 
+.lgreen {
+    color: #D4F8C9;
+} 
+.lblue {
+    color: #C9D6F8;
+} 
+.lpurple {
+    color: #DAC9F8;
+} 
+.lpink {
+    color: #F8C9F4;
+} 
+.mbrown {
+    color: #745b4a;
+} 
+.mred {
+    color: #F29B9C;
+} 
+.morange {
+    color: #F2C19C;
+} 
+.myellow {
+    color: #F2E79B;
+} 
+.mgreen {
+    color: #AFF29B;
+} 
+.mblue {
+    color: #9BB4F2;
+} 
+.mpurple {
+    color: #BB9CF2;
+} 
+.mpink {
+    color: #F29BEB;
+} 
+.sbrown {
+    color: #753a0f;
+} 
+.sred {
+    color: #E32629;
+} 
+.sorange {
+    color: #E58338;
+} 
+.syellow {
+    color: #E3CA26;
+} 
+.sgreen {
+    color: #7EEA5D;
+}
+.sblue {
+    color: #5D85EA;
+} 
+.spurple {
+    color: #844AE8;
+} 
+.spink {
+    color: #EA5DDE;
+} 
+.t1 {
+    color: #1D1B0C;
+} 
+.t2 {
+    color: #BB9CF2;
+} 
+.t3 {
+    color: #E7E7E7;
+} 
+
+
+
+
+

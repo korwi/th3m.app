@@ -1,0 +1,69 @@
+@import url('imports.css');
+ 
+:root {
+    /* ---------------------------------------------- COLORS ---------------------------------------------- */
+    /* gradients for black/white */
+    /* match with white text: */
+    --white: #f7f7f7;
+    --w1: #1D1B0C;
+    --w1-5: #1b1a0c;
+    --w2: #373528;
+    --w3: #504E43;
+    --w4: #69685F;
+    --w5: #82817A;
+    --w6: #9C9B96;
+    /* match with black text: */
+    --w7: #B5B4B1;
+    --w8: #CECECC;
+    --w9: #DBDBDA;
+    --w10:#E7E7E7;
+
+    
+    /* rainbow */
+    /* light: */
+    --lbrown: #79695f;
+    --lred: #F8C9CA;
+    --lorange: #F8DDC9;
+    --lyellow: #F8F2C9;
+    --lgreen: #D4F8C9;
+    --lblue: #C9D6F8;
+    --lpurple: #DAC9F8;
+    --lpink: #F8C9F4;
+    /* medium: */
+    --mbrown: #745b4a;
+    --mred: #F29B9C;
+    --morange: #F2C19C;
+    --myellow: #F2E79B;
+    --mgreen: #AFF29B;
+    --mblue: #9BB4F2;
+    --mpurple: #BB9CF2;
+    --mpink: #F29BEB;
+    /* strong: */
+    --sbrown: #753a0f;
+    --sred: #E32629;
+    --sorange: #E58338;
+    --syellow: #E3CA26;
+    --sgreen: #7EEA5D;
+    --sblue: #5D85EA;
+    --spurple: #844AE8;
+    --spink: #EA5DDE;
+
+
+    /* triad */
+    --t1: #1D1B0C;
+    --t2: #BB9CF2;
+    --t3: #E7E7E7;
+
+    /* specific */
+    --b1: rgba(0, 0, 0, 0.05);
+    --b2: rgb(209, 213, 219);
+    --astrong: #5d85eae8;
+
+    /* ---------------------------------------------- PX values ---------------------------------------------- */
+
+    /* ---------------------------------------------- Fonts ---------------------------------------------- */
+    --lora: 'Lora', serif;
+    --arial: Arial, Helvetica, sans-serif;
+    --mono: 'Roboto Mono', monospace;
+    --rampart: 'Rampart One', cursive;
+}
