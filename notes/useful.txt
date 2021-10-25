@@ -1,0 +1,4 @@
+https://getcssscan.com/css-box-shadow-examples
+https://ianlunn.github.io/Hover/
+
+box-shadow: #5D85EA 0px 0px 0px 3px, #7EEA5D 0px 0px 0px 6px, #E3CA26 0px 0px 0px 9px, #E58338 0px 0px 0px 12px, #E32629 0px 0px 0px 15px;
